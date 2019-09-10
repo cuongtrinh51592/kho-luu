@@ -481,7 +481,6 @@ ul.navbar-nav li a.active span{
 
 /* Start Event Details */
 .event_detail p {
-  text-indent: 20px;
   text-align: justify;
 
 }
@@ -495,26 +494,21 @@ ul.navbar-nav li a.active span{
   list-style-type: decimal;
 }
 
-.event_detail ol li {
-
-}
-
-.event_detail ol li ul {
-  list-style-type: circle;
+.event_detail ol li ul li {
+  list-style-type: disc !important;
 }
 
 /* End Event Details */
 
 /* Start About Us */
 .about_us_detail p {
-  text-indent: 20px;
   text-align: justify;
 
 }
 
 .about_us_detail img {
   max-width: 100%;
-  height: 100%;
+  height: auto;
   }
 
 .about_us_detail ol {
@@ -526,10 +520,11 @@ ul.navbar-nav li a.active span{
 }
 
 .about_us_detail ol li ul {
-  list-style-type: circle;
+  list-style-type: disc !important;
 }
 
 /* End About Us  Details */
+
 
 
 
