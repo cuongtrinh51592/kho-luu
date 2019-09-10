@@ -481,7 +481,6 @@ ul.navbar-nav li a.active span{
 
 /* Start Event Details */
 .event_detail p {
-  text-indent: 20px;
   text-align: justify;
 
 }
@@ -507,7 +506,6 @@ ul.navbar-nav li a.active span{
 
 /* Start About Us */
 .about_us_detail p {
-  text-indent: 20px;
   text-align: justify;
 
 }
