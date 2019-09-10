@@ -72,6 +72,11 @@ ul.navbar-nav li a.active span{
   padding:60px 0;
 }
 
+.banner-main #myCarousel img {
+	width:100%;
+	height:auto;
+}
+
 #our_service img {
   width:100%;
   height: 100%;
