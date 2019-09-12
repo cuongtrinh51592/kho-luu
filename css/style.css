@@ -46,10 +46,16 @@ ul.navbar-nav li {
 
 ul.navbar-nav li a {
   line-height: 100px;
-  padding:0 20px;
-  font-weight:500;
+  padding:0 10px;
+  font-weight:600;
   transition: 0.3s;
   font-size: 15px;
+  text-transform: uppercase;
+  color:#000 !important;
+}
+
+ul.navbar-nav li a.active {
+  color:#b6b6b6 !important;
 }
 
 ul.navbar-nav li a:hover,
@@ -248,6 +254,8 @@ ul.navbar-nav li a.active span{
 #footer .container-fluid {
   padding:30px;
   font-weight: 600;
+  background: #000 !important;
+  opacity: 0.9;
 }
 
 #footer .container-fluid p {
@@ -256,6 +264,30 @@ ul.navbar-nav li a.active span{
 .footer_contact {
   padding-bottom: 30px;
 }
+.lien_ket_nhanh a {
+  color:#fff !important;
+}
+.lien_ket_nhanh ul > li {
+  list-style: square;
+  margin-left: 15px;
+  color: #fff;
+}
+
+.lien_ket_nhanh ul > li > a {
+  font-weight:400;
+  padding-left: 5px;
+}
+
+.lien_ket_nhanh ul > a {
+  font-size:16px;
+  text-transform: uppercase;
+}
+
+.link_mangxahoi ul li {
+  display: inline-block;
+  padding:0 5px;
+}
+
 .main_not_front {
   margin-top:40px;
   margin-bottom: 40px;
@@ -312,6 +344,35 @@ ul.navbar-nav li a.active span{
   padding-left:0 !important;
   line-height: 25px !important;
   white-space: inherit !important;
+}
+
+.dang_ky_popup .modal-content {
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    padding: 0;
+    background-color: #fff !important;
+    width:100%;
+    margin-bottom:30px;
+}
+
+.dang_ky_popup .close {
+  color:#000 !important;
+}
+.dang_ky_popup{
+  position: relative;
+}
+.dang_ky_popup .btn-lg {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: #f2bd2c;
+  border-radius: 10px 10px 0 0;
+  transition: 0.3s;
+  border:1px solid #f2bd2c;
 }
 
 /*CONTACT----------------------------------------------*/
@@ -481,7 +542,6 @@ ul.navbar-nav li a.active span{
 
 /* Start Event Details */
 .event_detail p {
-  text-indent: 20px;
   text-align: justify;
 
 }
@@ -499,15 +559,14 @@ ul.navbar-nav li a.active span{
 
 }
 
-.event_detail ol li ul {
-  list-style-type: circle;
+.event_detail ol li ul li{
+  list-style-type: disc;
 }
 
 /* End Event Details */
 
 /* Start About Us */
 .about_us_detail p {
-  text-indent: 20px;
   text-align: justify;
 
 }
@@ -567,7 +626,7 @@ ul.navbar-nav li a.active span{
   ul.navbar-nav li a.active span {
   	border-bottom:0;
   }
-  
+
   ul.navbar-nav li {
     border-bottom:1px solid #fff;
   }
