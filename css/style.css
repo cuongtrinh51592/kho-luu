@@ -83,6 +83,20 @@ ul.navbar-nav li a.active span{
 	width:100%;
 	height:auto;
 }
+
+.banner-main #myCarousel .carousel-caption {
+  top:25%;
+}
+
+.banner-main #myCarousel .carousel-caption h3 {
+  color: #fff !important;
+  font-size: 60px;
+}
+
+.banner-main #myCarousel .carousel-caption p {
+  font-size:36px;
+}
+
 .title-content {
   margin-bottom: 30px;
   }
